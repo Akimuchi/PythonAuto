@@ -18,7 +18,7 @@ try:
     print(current_dir)
 
     # имя файла, который будем загружать на сайт
-    file_name = "piska.txt"
+    file_name = "../piska.txt"
 
     # получаем путь к file_example.txt
     file_path = os.path.join(current_dir, file_name)
