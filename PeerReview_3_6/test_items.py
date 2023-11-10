@@ -7,5 +7,5 @@ def test_check_add_to_cart_button_is_available(browser):
     browser.get(link)
     time.sleep(30)
     add_to_cart_button = browser.find_element(By.CSS_SELECTOR, "button.btn-add-to-basket")
-    assert add_to_cart_button.is_displayed(), "add_to_cart_button is not displayed"
+    assert add_to_cart_button.is_displayed(), "Add to cart button is not displayed"
 
